@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries API</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="container navbar-content">
+ <h1>Where in the world? 🌏🌍🌎</h1>
+ <button class="btn-darkmode" id="boton-dark">
+    <i class="fas fa-moon"></i>
+    Dark Mode
+    </button>
+    </div>
+</nav>
+<header class="container filter-content my-2">
+    <form class="form-search" id="formulario">
+        <i class="fas fa-search"></i>
+    <input type="text" placeholder="Search for a country..." id="inputFormulario">
+    </form>
+<div class="custom-select"> 
+<select class="select" id="filtroSelect">
+     <option value="" disabled selected>Filter by Region</option>
+     <option value="">All</option>
+     <option value="Africa">Africa</option>
+     <option value="Americas">Americas</option>
+     <option value="Asia">Asia</option>
+     <option value="Europa">Europa</option>
+     <option value="Oceania">Oceania</option>
+
+</select>
+
+</div>
+</header>
+<main class="container grid" id="banderas">
+
+</main>
+<script src="https://kit.fontawesome.com/d478f9b1cf.js" crossorigin="anonymous"></script>
+<script src="JS/dark-mode.js"></script>
+<script src="JS/script.js"> </script>
+<script src="JS/formulario.js"></script>
+<script src="JS/custom-select.js"></script>
+
+</body>
+</html>
